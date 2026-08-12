@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "dnd",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
-        type: 4,               // Custom
+        name: "Rosewood RP", // required by Discord API, not shown in the client
+        state: "Rosewood RP",     // this is what people actually see
+        type: 3,               // Custom
       },
     ],
   },
@@ -449,8 +449,8 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: true,
-    leveling: true,
+    economy: false,
+    leveling: false,
     moderation: true,
     logging: true,
     welcome: true,
@@ -458,8 +458,8 @@ export const botConfig = {
     // Community engagement systems.
     tickets: true,
     giveaways: true,
-    birthday: true,
-    counter: true,
+    birthday: false,
+    counter: false,
 
     // Security and self-service systems.
     verification: true,
@@ -467,13 +467,13 @@ export const botConfig = {
     joinToCreate: true,
 
     // Utility/quality-of-life modules.
-    voice: true,
+    voice: false,
     search: true,
-    tools: true,
-    utility: true,
-    community: true,
-    fun: true,
-    music: true,
+    tools: false,
+    utility: false,
+    community: false,
+    fun: false,
+    music: false,
   },
 };
 
