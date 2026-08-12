@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Rosewood Automative Services",
+      text: "Rosewood Automation Services",
       // Footer icon URL (null = no icon).
       icon: null,
     },
