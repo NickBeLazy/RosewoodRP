@@ -23,8 +23,8 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "RWRP Automation", // required by Discord API, not shown in the client
-        state: "Community Requests",     // this is what people actually see
+        name: "Community Support Requests", // required by Discord API, not shown in the client
+        state: "",     // this is what people actually see
         type: 2,               // Custom
       },
     ],
