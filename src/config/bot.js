@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Rosewood RP", // required by Discord API, not shown in the client
-        state: "Rosewood RP",     // this is what people actually see
-        type: 3,               // Custom
+        name: "RWRP Automation", // required by Discord API, not shown in the client
+        state: "Community Requests",     // this is what people actually see
+        type: 2,               // Custom
       },
     ],
   },
